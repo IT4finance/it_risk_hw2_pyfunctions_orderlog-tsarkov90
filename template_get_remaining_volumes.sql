@@ -10,7 +10,7 @@ SELECT buysell, -- тип заявки
 FROM stock_orders
 WHERE security_code = '{security_code}' -- <== security_code
     AND order_time > '{time1}' -- <====== time_1 (start_time)
-    and order_time <= '{time2}' -- <======= time_2 (end_time)
+    AND order_time <= '{time2}' -- <======= time_2 (end_time)
 GROUP BY buysell,
          order_no,
          price
