@@ -6,7 +6,7 @@ SELECT buysell, -- тип заявки
             WHEN action = 0 THEN -volume -- снятие заявки
             WHEN action = 1 THEN volume -- постановка заявки
             WHEN action = 2 THEN -volume -- исполнение заявки
-       END) volume
+       END volume -- остаточный объём
 FROM stock_orders
 WHERE security_code = '{security_code}' -- <== security_code
     AND order_time > '{time1}' -- <====== time_1 (start_time)
