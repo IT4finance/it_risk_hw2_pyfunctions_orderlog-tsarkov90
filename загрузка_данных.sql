@@ -1,33 +1,4 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@demak0v 
-IT4finance
-/
-it_risk_hw1_sql_bonds-demak0v
-Private
-Code
-Issues
-Pull requests
-1
-Actions
-Projects
-Security
-Insights
-Settings
-it_risk_hw1_sql_bonds-demak0v/HW_1.1.sql
-@demak0v
-demak0v Загрузил дз.
-…
-Latest commit 22a9eea 14 days ago
- History
- 1 contributor
-49 lines (42 sloc)  1.38 KB
-   
+  
 -- Задание 1
 -- Данные загружены, переменные даны, папка public.
 -- я делал в колабе и не знаю, как должен выглядеть sql не в питоне, надеюсь, ошибок немного.
@@ -77,16 +48,3 @@ ALTER DATABASE postgres SET datestyle TO "ISO, DMY";
 
 copy public.bond_quotes FROM '/content/bond_quotes.csv'  DELIMITER ';' CSV HEADER ENCODING 'WIN1251';
 	
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
